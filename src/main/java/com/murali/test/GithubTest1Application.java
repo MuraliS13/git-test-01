@@ -11,7 +11,7 @@ public class GithubTest1Application {
 
 	@GetMapping("/ping")
 	public String ping() {
-		return "Micro Service Up and Running now.";
+		return "Micro Service Up and Running.";
 	}
 
 	public static void main(String[] args) {
